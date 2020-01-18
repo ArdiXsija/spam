@@ -4,7 +4,7 @@
 
 <?php
 
-if(strtolower(substr(PHP_OS, 0, 3)) == 'win') {
+if(strtolower(substr(PHP_OS, 0, 30)) == 'win') {
 
 $R = "";
 
